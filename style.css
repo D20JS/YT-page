@@ -54,6 +54,7 @@ iframe{
     flex-direction: column;
     float: right;
     height: 100px;
+    margin-right: 200px;
     padding-bottom: 10px;
 }
 
