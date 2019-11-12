@@ -7,14 +7,22 @@ body{
 }
 
 .title{
+    position: relative;
+    float: left;
     height: 50px;
+    padding: 0;
 }
 
 header{
     display: flex;
+    justify-content: center;
+
 }
 
 iframe{
+    position: relative;
+    margin-left: 30%;
+    margin-top: 50px;
     width: 900px;
     height: 800px;
 }
@@ -25,12 +33,28 @@ iframe{
     height: 30px;
 }
 
+button{
+    width: 100px;
+}
+
 #sidebar, img{
     display: flex;
     flex-direction: column;
     float: right;
     height: 100px;
-    width: ;
     padding-bottom: 10px;
+}
+
+h3{
+    margin-left: 800px;
+}
+
+hr{
+    max-width: 800px;
+}
+
+#description{
+    margin-left: 800px;
+    max-width: 800px;
 }
 
