@@ -1,93 +1,102 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
 
-    * {
-        box-sizing: border-box; 
-    }
+* {
+  box-sizing: border-box;
+}
 
-    body {
-        display: flex;
-        min-height: 100vh;
-        flex-direction: column;
-        margin: 0;
-        font-family: "Monsterrat", sans-serif;
-        background-color: #181818;
-        color: #A0A0A0;
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+  font-family: "Monsterrat", sans-serif;
+  background-color: #181818;
+  color: #a0a0a0;
+}
 
-    }
+#YTlogo {
+  height: 50px;
+  width: 100px;
+}
 
-    #YTlogo{
-        height: 50px;
-        width: 100px;
-    }
+#searchbar {
+  display: flex;
+  height: 35px;
+  width: 600px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #303030;
+  padding: 0 10px 0 10px;
+}
 
-    #searchbar{
-        display: flex;
-        height: 35px;
-        width: 500px;
-        border-radius: 5px;
-    }
+button {
+  display: flex;
+  height: 35px;
+  width: 100px;
+  float: right;
+  border-radius: 5px;
+}
 
-    button{
-        display: flex;
-        height: 35px;
-        width: 100px;
-        float: right;
-        border-radius: 5px;
-    }
+#Acclogo {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
 
-    #Acclogo{
-        height: 50px;
-        width: 50px;
-    }
+#thumbnail {
+  height: 100px;
+  width: 200px;
+}
 
-    #thumbnail{
-        height: 100px;
-        width: 200px;
-    }
-    
-    header {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        border: 2px black solid;
-        background-color: #181818;
-    }
-    
-    .content-container {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
-    .content {
-        margin: 0 auto;
-        width: 100%;
-        max-width: 1700px;
-        display: flex;
-        flex: 1;
-    }
-    
-    .content > article {
-        flex: 1;
-        min-height: 60vh;
-        justify-content: center;
-    }
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px black solid;
+  background-color: #181818;
+}
 
-    iframe{
-        width: 1300px;
-        height: 800px;
-        padding-top: 20px;
-    }
+.content-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
 
-    h4{
-        line-height: 5px;
-    }
+.content {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1700px;
+  display: flex;
+  flex: 1;
+}
 
+.content > article {
+  flex: 1;
+  min-height: 60vh;
+  justify-content: center;
+}
 
+iframe {
+  width: 1300px;
+  height: 800px;
+  padding-top: 20px;
+}
 
-    .content > aside {
-        background: beige;
-        flex: 1;
-        max-width: 200px;
-    }
+h4 {
+  line-height: 5px;
+}
+
+#DnDlogo {
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content > aside {
+  flex: 1;
+  max-width: 200px;
+}
