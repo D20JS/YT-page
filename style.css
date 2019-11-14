@@ -77,6 +77,11 @@
         padding-top: 20px;
     }
 
+    h3{
+        display: flex;
+        float: left;
+    }
+
     .content > aside {
         background: beige;
         flex: 1;
