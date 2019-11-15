@@ -35,6 +35,9 @@ button {
   width: 100px;
   float: right;
   border-radius: 5px;
+  background-color: #202020;
+  border-color: black;
+  color: #a0a0a0;
 }
 
 #Acclogo {
@@ -71,7 +74,7 @@ header {
 }
 
 .content > article {
-  flex: 1;
+  flex: 0;
   min-height: 60vh;
   justify-content: center;
 }
@@ -82,18 +85,34 @@ iframe {
   padding-top: 20px;
 }
 
+#like-dislike {
+  display: flex;
+  height: 50px;
+  margin: 0;
+}
+
 h4 {
   line-height: 5px;
 }
 
 #DnDlogo {
   display: flex;
-  flex-wrap: wrap;
   border-radius: 50%;
+}
+
+#sub {
+  display: flex;
+  float: right;
+  height: 150px;
+}
+
+span {
+  word-spacing: 30px;
 }
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
 
 .content > aside {
