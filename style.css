@@ -107,12 +107,16 @@ h4 {
 }
 
 span {
-  word-spacing: 30px;
+  display: flex;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
+}
+
+ {
+  display: flex;
 }
 
 .content > aside {
