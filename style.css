@@ -30,7 +30,9 @@ body {
 }
 
 button {
-  display: flex;
+  position: relative;
+  left: 100px;
+  bottom: 35px;
   height: 35px;
   width: 100px;
   float: right;
@@ -86,7 +88,8 @@ iframe {
 }
 
 #like-dislike {
-  display: flex;
+  position: relative;
+  left: 900px;
   height: 50px;
   margin: 0;
 }
@@ -101,22 +104,25 @@ h4 {
 }
 
 #sub {
-  display: flex;
+  position: relative;
   float: right;
-  height: 150px;
+  height: 50px;
+  width: 150px;
+  bottom: 40px;
+  right: 30px;
 }
 
-span {
-  display: flex;
+#share {
+  position: relative;
+  left: 1100px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
 }
 
 ul {
   list-style-type: none;
   padding: 0;
-}
-
- {
-  display: flex;
 }
 
 .content > aside {
