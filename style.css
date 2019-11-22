@@ -87,7 +87,7 @@ iframe {
   padding-top: 20px;
 }
 
-#like-dislike {
+.fa-thumb-up {
   position: relative;
   left: 900px;
   height: 50px;
@@ -110,14 +110,6 @@ h4 {
   width: 150px;
   bottom: 40px;
   right: 30px;
-}
-
-#share {
-  position: relative;
-  left: 1100px;
-  border-radius: 50%;
-  height: 50px;
-  width: 50px;
 }
 
 ul {
