@@ -36,7 +36,7 @@ button {
   height: 35px;
   width: 100px;
   float: right;
-  border-radius: 5px;
+  border-radius: 5ssasaspx;
   background-color: #202020;
   border-color: black;
   color: #a0a0a0;
@@ -96,6 +96,11 @@ iframe {
 
 h4 {
   line-height: 5px;
+  margin: 0;
+}
+
+h3 {
+  margin-top: 0;
 }
 
 #DnDlogo {
@@ -103,12 +108,23 @@ h4 {
   border-radius: 50%;
 }
 
+.video-des {
+  position: relative;
+  left: 60px;
+  bottom: 60px;
+}
+
+#channel-support {
+  display: flex;
+  position: relative;
+  left: 1000px;
+}
+
 #sub {
   position: relative;
   float: right;
   height: 50px;
   width: 150px;
-  bottom: 40px;
   right: 30px;
 }
 
