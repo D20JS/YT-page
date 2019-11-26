@@ -100,7 +100,7 @@ h4 {
 }
 
 h3 {
-  margin-top: 0;
+  margin-top: 5px;
 }
 
 #DnDlogo {
@@ -109,9 +109,6 @@ h3 {
 }
 
 .video-des {
-  position: relative;
-  left: 60px;
-  bottom: 60px;
 }
 
 #channel-support {
@@ -134,6 +131,10 @@ ul {
 }
 
 .content > aside {
-  flex: 1;
   max-width: 200px;
+}
+
+aside {
+  position: relative;
+  left: 10px;
 }
